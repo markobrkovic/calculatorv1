@@ -23,7 +23,8 @@
 body {
   font-family: var(--font-family);
   color: var(--color-text);
-  background-color: #f8f2bf;
+  /* background-color: #fdeed3; */
+  background-color: rgb(253, 161, 161);
 }
 
 h1,
@@ -31,7 +32,7 @@ h2,
 h3,
 h4,
 h5 {
-  background-color: rgb(253, 213, 197);
+  background-color: rgb(255, 125, 125);
   color: black;
   padding: 1rem;
   box-shadow: 0 5px 10px black;
@@ -56,13 +57,16 @@ h5 {
 }
 
 .submitButton {
-  background-color: rgb(253, 213, 197);
+  background-color: rgb(255, 125, 125);
+  /* background-color: rgb(253, 213, 197); */
   font-size: 2rem;
-  border: 1px solid rgb(255, 190, 190);
+  /* border: 1px solid rgb(255, 190, 190); */
+  border: 1px solid rgb(255, 172, 172);
 }
 
 .submitButton:hover {
-  background-color: rgb(253, 188, 162);
+  background-color: rgb(250, 89, 89);
+  cursor: pointer;
 }
 
 .result {
@@ -74,7 +78,7 @@ h5 {
 }
 
 .fa-backspace {
-  grid-column-start: 1;
+  grid-column-start: 2;
   grid-column-end: 4;
   grid-row-start: 5;
   grid-row-end: 5;
@@ -87,7 +91,8 @@ h5 {
   grid-row-end: 1;
   font-size: 2rem;
   position: relative;
-  background-color: rgba(253, 213, 197, 0.945);
+  border: none;
+  background-color: rgba(255, 125, 125, 0.925);
   opacity: 1;
 }
 
