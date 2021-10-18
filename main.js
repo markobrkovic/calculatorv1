@@ -1,6 +1,6 @@
 import { createCalculatorPage } from "./lib/calculatorPage.js";
 import { createTitleComponent } from "./lib/titleComponent.js";
-import { add } from "./lib/calculateMethods.js";
+// import { add } from "./lib/calculateMethods.js";
 
 // Declare a function to create the elements and logic inside the #app element
 function createApp() {
